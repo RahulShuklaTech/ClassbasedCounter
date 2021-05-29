@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.player {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  
+}
+
+
+.button{
+  width: 50px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  box-shadow: 0 5px #999;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.button:active{
+  box-shadow: 0 2px #999;
+  transform: translateY(5px);
+  opacity: .6;
+}
+
+
+.button:nth-child(1){
+  height: 80%;
+  background-color: #EC5553;
+}
+
+
+
+
+.button:nth-child(2){
+  height: 75%;
+  background-color: #FDA63E;
+}
+
+.button:nth-child(3){
+  height: 70%;
+  background-color: #FEC844 ;
+}
+
+.button:nth-child(4){
+  height: 65%;
+  background-color: #67B96E;
+}
+
+.button:nth-child(5){
+  height: 60%;
+  background-color: #2DA498;
+}
+
+.button:nth-child(6){
+  height: 55%;
+  background-color: #33B3F1;
+}
+
+.button:nth-child(7){
+  height: 50%;
+  background-color: #7C58BC ;
+}
+
+
+.button:nth-child(8){
+  height: 45%;
+  background-color: #EC5553;
+}
+
+
