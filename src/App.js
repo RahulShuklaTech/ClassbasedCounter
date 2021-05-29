@@ -1,7 +1,7 @@
 import './App.css';
 import React, {useEffect, useState} from 'react';
 import Counter from './Counter';
-import CounterClassComponents from "./CounterClassComponent"
+// import CounterClassComponents from "./CounterClassComponent"
 
 function App() {
   let [mount, setMounted] = useState(false);
